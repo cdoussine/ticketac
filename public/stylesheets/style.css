@@ -1,0 +1,74 @@
+body {
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+0,1183e0+0,73b1e7+76,87bcea+100 */
+  background: #d0e4f7; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #d0e4f7 0%,
+    #1183e0 0%,
+    #73b1e7 76%,
+    #87bcea 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #d0e4f7 0%,
+    #1183e0 0%,
+    #73b1e7 76%,
+    #87bcea 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #d0e4f7 0%,
+    #1183e0 0%,
+    #73b1e7 76%,
+    #87bcea 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.login {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home {
+  padding-top: 100px;
+}
+
+.landmark {
+  margin-top: 15px;
+  height: 200px;
+}
+
+.journey {
+  min-width: 305px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.basket {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h3 {
+  padding-top: 15px;
+  color: white;
+}
